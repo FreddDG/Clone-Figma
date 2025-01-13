@@ -1,0 +1,16 @@
+.image-container {
+  position: relative; 
+  width: 400px;
+  height: 350px;
+}
+.shape {
+  width: 100%
+  height: auto
+}
+.icon1 {
+  position: absolute;
+  bottom: 180px;
+  left: 180px;
+  width: 150px;
+  height: auto
+}
