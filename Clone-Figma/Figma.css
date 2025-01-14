@@ -1,16 +1,74 @@
-.image-container {
-  position: relative; 
-  width: 400px;
-  height: 350px;
+.Buttons {
+  display: flex;
+  justify-content: left;
+  align-items: right;
+  flex-wrap: wrap;
+  width: 550px;
+}
+.home {
+margin-left: 20px;
+font-size: x-small;
+color: rgb(72, 72, 245);
+border: none;
+}
+.about {
+  margin-left: 30px;
+  font-size: x-small;
+  color: rgb(72, 72, 245);
+  border: none;
+}
+.contact {
+  margin-left: 30px;
+  font-size: x-small;
+  color: rgb(72, 72, 245);
+  border: none;
+}
+.landing {
+  margin-left: 50px;
+  font-size: x-small;
+  width: 80px;
+  color: rgb(43, 17, 191)
+  font-weight: 900;
+  border: none;
+}
+.buynow {
+  margin-left: 80px;
+  font-size: x-small;
+  width: 80px;
+  background-color: rgb(18, 18, 130);
+  color: white;
+  border: none;
 }
 .shape {
-  width: 100%
-  height: auto
+  background-attachment: fixed;
+  position: relative;
+  width: 550px;
+  height: 350px;
+  top: 0;
+  left: 0;
 }
 .icon1 {
+  background-attachment: fixed;
   position: absolute;
-  bottom: 180px;
-  left: 180px;
-  width: 150px;
-  height: auto
+  width: 220px;
+  height: 220px;
+  bottom: 50px;
+  left: 320px;
 }
+.image-container {
+  position: relative;
+  z-index: 1;
+}
+.title1 {
+  width: 320px;
+  height: 60px;
+  margin-top: -300px;
+  font-size: 28px;
+}
+.paragraph1 {
+  width: 320px;
+  font-size: x-small;
+  font-weight: arial;
+  color: blue;
+}
+
