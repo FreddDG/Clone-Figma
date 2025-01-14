@@ -6,34 +6,34 @@
   width: 550px;
 }
 .home {
-margin-left: 20px;
-font-size: x-small;
-color: rgb(72, 72, 245);
-border: none;
+  margin-left: 20px;
+  font-size: 7px;
+  color: rgb(72, 72, 245);
+  border: none;
 }
 .about {
   margin-left: 30px;
-  font-size: x-small;
+  font-size: 7px;
   color: rgb(72, 72, 245);
   border: none;
 }
 .contact {
   margin-left: 30px;
-  font-size: x-small;
+  font-size: 7px;
   color: rgb(72, 72, 245);
   border: none;
 }
 .landing {
   margin-left: 50px;
-  font-size: x-small;
+  font-size: 7px;
   width: 80px;
-  color: rgb(43, 17, 191)
+  color: rgb(43, 17, 191);
   font-weight: 900;
   border: none;
 }
 .buynow {
   margin-left: 80px;
-  font-size: x-small;
+  font-size: 7px;
   width: 80px;
   background-color: rgb(18, 18, 130);
   color: white;
@@ -71,4 +71,22 @@ border: none;
   font-weight: arial;
   color: blue;
 }
-
+.purchase {
+  width: 80px;
+  height: 10px;
+  font-size: 7px;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  border: solid;
+  color: white;
+  background-color: rgb(8, 8, 53);
+}
+.learn {
+  width: 80px;
+  height: 10px;
+  font-size: 7px;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  border: solid;
+  color: rgb(8, 8, 53);
+  background-color: white
