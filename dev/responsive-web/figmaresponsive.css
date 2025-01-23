@@ -11,12 +11,13 @@ body {
   align-items: flex-start;
   gap: 50px;
 }
-
+.HP {
+  display: grid;
+}
 
 .left {
   height: 100%;
   max-width: 30%;
-  flex-shrink: 0;
 }
 
 .right {
@@ -48,19 +49,18 @@ h2 {
     display: none;
     flex-shrink: initial;
   }
+  .container{
+    margin-left: -7rem;
+  }
 }
 @media all and (max-width: 1024px) {
   .container {
-    display: flexbox;
+    display: flex;
   }
-  .left{
-    max-width: 30%;
-  }
-
+.right {
+  display: flex;
+}
 }
 @media all and (max-width: 425px) {
-.right {
-  transition: ease-in-out;
-  margin-left: auto;
-}
+
 }
